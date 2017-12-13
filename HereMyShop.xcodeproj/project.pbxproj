@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8460140D1FE12D4D00BEC428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460140C1FE12D4D00BEC428 /* AppDelegate.swift */; };
+		8460140F1FE12D4D00BEC428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460140E1FE12D4D00BEC428 /* ViewController.swift */; };
+		846014121FE12D4D00BEC428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846014101FE12D4D00BEC428 /* Main.storyboard */; };
+		846014151FE12D4E00BEC428 /* HereMyShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 846014131FE12D4E00BEC428 /* HereMyShop.xcdatamodeld */; };
+		846014171FE12D4E00BEC428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846014161FE12D4E00BEC428 /* Assets.xcassets */; };
+		8460141A1FE12D4E00BEC428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846014181FE12D4E00BEC428 /* LaunchScreen.storyboard */; };
+		846014251FE12D4E00BEC428 /* HereMyShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846014241FE12D4E00BEC428 /* HereMyShopTests.swift */; };
+		846014301FE12D4E00BEC428 /* HereMyShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460142F1FE12D4E00BEC428 /* HereMyShopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846014211FE12D4E00BEC428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846014011FE12D4D00BEC428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846014081FE12D4D00BEC428;
+			remoteInfo = HereMyShop;
+		};
+		8460142C1FE12D4E00BEC428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846014011FE12D4D00BEC428 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846014081FE12D4D00BEC428;
+			remoteInfo = HereMyShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846014091FE12D4D00BEC428 /* HereMyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HereMyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8460140C1FE12D4D00BEC428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8460140E1FE12D4D00BEC428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846014111FE12D4D00BEC428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846014141FE12D4E00BEC428 /* HereMyShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HereMyShop.xcdatamodel; sourceTree = "<group>"; };
+		846014161FE12D4E00BEC428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846014191FE12D4E00BEC428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8460141B1FE12D4E00BEC428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846014201FE12D4E00BEC428 /* HereMyShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HereMyShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846014241FE12D4E00BEC428 /* HereMyShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereMyShopTests.swift; sourceTree = "<group>"; };
+		846014261FE12D4E00BEC428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8460142B1FE12D4E00BEC428 /* HereMyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HereMyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8460142F1FE12D4E00BEC428 /* HereMyShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereMyShopUITests.swift; sourceTree = "<group>"; };
+		846014311FE12D4E00BEC428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846014061FE12D4D00BEC428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8460141D1FE12D4E00BEC428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846014281FE12D4E00BEC428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846014001FE12D4D00BEC428 = {
+			isa = PBXGroup;
+			children = (
+				8460140B1FE12D4D00BEC428 /* HereMyShop */,
+				846014231FE12D4E00BEC428 /* HereMyShopTests */,
+				8460142E1FE12D4E00BEC428 /* HereMyShopUITests */,
+				8460140A1FE12D4D00BEC428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8460140A1FE12D4D00BEC428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846014091FE12D4D00BEC428 /* HereMyShop.app */,
+				846014201FE12D4E00BEC428 /* HereMyShopTests.xctest */,
+				8460142B1FE12D4E00BEC428 /* HereMyShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8460140B1FE12D4D00BEC428 /* HereMyShop */ = {
+			isa = PBXGroup;
+			children = (
+				8460140C1FE12D4D00BEC428 /* AppDelegate.swift */,
+				8460140E1FE12D4D00BEC428 /* ViewController.swift */,
+				846014101FE12D4D00BEC428 /* Main.storyboard */,
+				846014161FE12D4E00BEC428 /* Assets.xcassets */,
+				846014181FE12D4E00BEC428 /* LaunchScreen.storyboard */,
+				8460141B1FE12D4E00BEC428 /* Info.plist */,
+				846014131FE12D4E00BEC428 /* HereMyShop.xcdatamodeld */,
+			);
+			path = HereMyShop;
+			sourceTree = "<group>";
+		};
+		846014231FE12D4E00BEC428 /* HereMyShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				846014241FE12D4E00BEC428 /* HereMyShopTests.swift */,
+				846014261FE12D4E00BEC428 /* Info.plist */,
+			);
+			path = HereMyShopTests;
+			sourceTree = "<group>";
+		};
+		8460142E1FE12D4E00BEC428 /* HereMyShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8460142F1FE12D4E00BEC428 /* HereMyShopUITests.swift */,
+				846014311FE12D4E00BEC428 /* Info.plist */,
+			);
+			path = HereMyShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846014081FE12D4D00BEC428 /* HereMyShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846014341FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShop" */;
+			buildPhases = (
+				846014051FE12D4D00BEC428 /* Sources */,
+				846014061FE12D4D00BEC428 /* Frameworks */,
+				846014071FE12D4D00BEC428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HereMyShop;
+			productName = HereMyShop;
+			productReference = 846014091FE12D4D00BEC428 /* HereMyShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8460141F1FE12D4E00BEC428 /* HereMyShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846014371FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShopTests" */;
+			buildPhases = (
+				8460141C1FE12D4E00BEC428 /* Sources */,
+				8460141D1FE12D4E00BEC428 /* Frameworks */,
+				8460141E1FE12D4E00BEC428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846014221FE12D4E00BEC428 /* PBXTargetDependency */,
+			);
+			name = HereMyShopTests;
+			productName = HereMyShopTests;
+			productReference = 846014201FE12D4E00BEC428 /* HereMyShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8460142A1FE12D4E00BEC428 /* HereMyShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8460143A1FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShopUITests" */;
+			buildPhases = (
+				846014271FE12D4E00BEC428 /* Sources */,
+				846014281FE12D4E00BEC428 /* Frameworks */,
+				846014291FE12D4E00BEC428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8460142D1FE12D4E00BEC428 /* PBXTargetDependency */,
+			);
+			name = HereMyShopUITests;
+			productName = HereMyShopUITests;
+			productReference = 8460142B1FE12D4E00BEC428 /* HereMyShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846014011FE12D4D00BEC428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = MuhammadAamir;
+				TargetAttributes = {
+					846014081FE12D4D00BEC428 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8460141F1FE12D4E00BEC428 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846014081FE12D4D00BEC428;
+					};
+					8460142A1FE12D4E00BEC428 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846014081FE12D4D00BEC428;
+					};
+				};
+			};
+			buildConfigurationList = 846014041FE12D4D00BEC428 /* Build configuration list for PBXProject "HereMyShop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846014001FE12D4D00BEC428;
+			productRefGroup = 8460140A1FE12D4D00BEC428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846014081FE12D4D00BEC428 /* HereMyShop */,
+				8460141F1FE12D4E00BEC428 /* HereMyShopTests */,
+				8460142A1FE12D4E00BEC428 /* HereMyShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846014071FE12D4D00BEC428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8460141A1FE12D4E00BEC428 /* LaunchScreen.storyboard in Resources */,
+				846014171FE12D4E00BEC428 /* Assets.xcassets in Resources */,
+				846014121FE12D4D00BEC428 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8460141E1FE12D4E00BEC428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846014291FE12D4E00BEC428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846014051FE12D4D00BEC428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8460140F1FE12D4D00BEC428 /* ViewController.swift in Sources */,
+				846014151FE12D4E00BEC428 /* HereMyShop.xcdatamodeld in Sources */,
+				8460140D1FE12D4D00BEC428 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8460141C1FE12D4E00BEC428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846014251FE12D4E00BEC428 /* HereMyShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846014271FE12D4E00BEC428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846014301FE12D4E00BEC428 /* HereMyShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846014221FE12D4E00BEC428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846014081FE12D4D00BEC428 /* HereMyShop */;
+			targetProxy = 846014211FE12D4E00BEC428 /* PBXContainerItemProxy */;
+		};
+		8460142D1FE12D4E00BEC428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846014081FE12D4D00BEC428 /* HereMyShop */;
+			targetProxy = 8460142C1FE12D4E00BEC428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846014101FE12D4D00BEC428 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846014111FE12D4D00BEC428 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846014181FE12D4E00BEC428 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846014191FE12D4E00BEC428 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846014321FE12D4E00BEC428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		846014331FE12D4E00BEC428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846014351FE12D4E00BEC428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KYU9L2NHS;
+				INFOPLIST_FILE = HereMyShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOS.HereMyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846014361FE12D4E00BEC428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KYU9L2NHS;
+				INFOPLIST_FILE = HereMyShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.IOS.HereMyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846014381FE12D4E00BEC428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KYU9L2NHS;
+				INFOPLIST_FILE = HereMyShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.HereMyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HereMyShop.app/HereMyShop";
+			};
+			name = Debug;
+		};
+		846014391FE12D4E00BEC428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KYU9L2NHS;
+				INFOPLIST_FILE = HereMyShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.HereMyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HereMyShop.app/HereMyShop";
+			};
+			name = Release;
+		};
+		8460143B1FE12D4E00BEC428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KYU9L2NHS;
+				INFOPLIST_FILE = HereMyShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.HereMyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HereMyShop;
+			};
+			name = Debug;
+		};
+		8460143C1FE12D4E00BEC428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KYU9L2NHS;
+				INFOPLIST_FILE = HereMyShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOS.HereMyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HereMyShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846014041FE12D4D00BEC428 /* Build configuration list for PBXProject "HereMyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846014321FE12D4E00BEC428 /* Debug */,
+				846014331FE12D4E00BEC428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846014341FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846014351FE12D4E00BEC428 /* Debug */,
+				846014361FE12D4E00BEC428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846014371FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846014381FE12D4E00BEC428 /* Debug */,
+				846014391FE12D4E00BEC428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8460143A1FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8460143B1FE12D4E00BEC428 /* Debug */,
+				8460143C1FE12D4E00BEC428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		846014131FE12D4E00BEC428 /* HereMyShop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				846014141FE12D4E00BEC428 /* HereMyShop.xcdatamodel */,
+			);
+			currentVersion = 846014141FE12D4E00BEC428 /* HereMyShop.xcdatamodel */;
+			path = HereMyShop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 846014011FE12D4D00BEC428 /* Project object */;
+}
