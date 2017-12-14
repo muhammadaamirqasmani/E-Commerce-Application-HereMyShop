@@ -1,0 +1,6 @@
+framework module Pods_HereMyShop {
+  umbrella header "Pods-HereMyShop-umbrella.h"
+
+  export *
+  module * { export * }
+}

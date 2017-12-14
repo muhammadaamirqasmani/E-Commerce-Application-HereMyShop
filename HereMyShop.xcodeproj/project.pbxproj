@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28809C2F8A769F4D9A8D613F /* Pods_HereMyShopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D4A7DB4AA06F20E79657219 /* Pods_HereMyShopTests.framework */; };
+		44D89574D4D2F4D383B23681 /* Pods_HereMyShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A76C788ECA167CF3D7AA66 /* Pods_HereMyShop.framework */; };
 		8460140D1FE12D4D00BEC428 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460140C1FE12D4D00BEC428 /* AppDelegate.swift */; };
-		8460140F1FE12D4D00BEC428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460140E1FE12D4D00BEC428 /* ViewController.swift */; };
+		8460140F1FE12D4D00BEC428 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460140E1FE12D4D00BEC428 /* MapVC.swift */; };
 		846014121FE12D4D00BEC428 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846014101FE12D4D00BEC428 /* Main.storyboard */; };
 		846014151FE12D4E00BEC428 /* HereMyShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 846014131FE12D4E00BEC428 /* HereMyShop.xcdatamodeld */; };
 		846014171FE12D4E00BEC428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846014161FE12D4E00BEC428 /* Assets.xcassets */; };
 		8460141A1FE12D4E00BEC428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846014181FE12D4E00BEC428 /* LaunchScreen.storyboard */; };
 		846014251FE12D4E00BEC428 /* HereMyShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846014241FE12D4E00BEC428 /* HereMyShopTests.swift */; };
 		846014301FE12D4E00BEC428 /* HereMyShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460142F1FE12D4E00BEC428 /* HereMyShopUITests.swift */; };
+		849D088C1FE1302D00CDB3CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 849D088B1FE1302D00CDB3CD /* GoogleService-Info.plist */; };
+		ECAD8636A857C7C836704B64 /* Pods_HereMyShopUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5229D692214B1F0355510A5F /* Pods_HereMyShopUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D4A7DB4AA06F20E79657219 /* Pods_HereMyShopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HereMyShopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD102E5A116D7F931D76F36 /* Pods-HereMyShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereMyShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-HereMyShop/Pods-HereMyShop.release.xcconfig"; sourceTree = "<group>"; };
+		5229D692214B1F0355510A5F /* Pods_HereMyShopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HereMyShopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71132A70D7FBDA7C7C9E5451 /* Pods-HereMyShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereMyShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HereMyShopTests/Pods-HereMyShopTests.debug.xcconfig"; sourceTree = "<group>"; };
 		846014091FE12D4D00BEC428 /* HereMyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HereMyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8460140C1FE12D4D00BEC428 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8460140E1FE12D4D00BEC428 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8460140E1FE12D4D00BEC428 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		846014111FE12D4D00BEC428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846014141FE12D4E00BEC428 /* HereMyShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HereMyShop.xcdatamodel; sourceTree = "<group>"; };
 		846014161FE12D4E00BEC428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		8460142B1FE12D4E00BEC428 /* HereMyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HereMyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8460142F1FE12D4E00BEC428 /* HereMyShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HereMyShopUITests.swift; sourceTree = "<group>"; };
 		846014311FE12D4E00BEC428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849D088B1FE1302D00CDB3CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "HereMyShop/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DEDF0DB3AF19C77422AA3C9E /* Pods-HereMyShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereMyShopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HereMyShopUITests/Pods-HereMyShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E7FBA9442795EA909B6E9393 /* Pods-HereMyShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereMyShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HereMyShopUITests/Pods-HereMyShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3A76C788ECA167CF3D7AA66 /* Pods_HereMyShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HereMyShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1456A663960D3432D7DFAA /* Pods-HereMyShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereMyShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HereMyShop/Pods-HereMyShop.debug.xcconfig"; sourceTree = "<group>"; };
+		FF14B1FB5978A5A1CBB41E4F /* Pods-HereMyShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HereMyShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HereMyShopTests/Pods-HereMyShopTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D89574D4D2F4D383B23681 /* Pods_HereMyShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28809C2F8A769F4D9A8D613F /* Pods_HereMyShopTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAD8636A857C7C836704B64 /* Pods_HereMyShopUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45E91F9114E5F94033464B39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB1456A663960D3432D7DFAA /* Pods-HereMyShop.debug.xcconfig */,
+				3CD102E5A116D7F931D76F36 /* Pods-HereMyShop.release.xcconfig */,
+				71132A70D7FBDA7C7C9E5451 /* Pods-HereMyShopTests.debug.xcconfig */,
+				FF14B1FB5978A5A1CBB41E4F /* Pods-HereMyShopTests.release.xcconfig */,
+				E7FBA9442795EA909B6E9393 /* Pods-HereMyShopUITests.debug.xcconfig */,
+				DEDF0DB3AF19C77422AA3C9E /* Pods-HereMyShopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		846014001FE12D4D00BEC428 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				846014231FE12D4E00BEC428 /* HereMyShopTests */,
 				8460142E1FE12D4E00BEC428 /* HereMyShopUITests */,
 				8460140A1FE12D4D00BEC428 /* Products */,
+				45E91F9114E5F94033464B39 /* Pods */,
+				AA3965AC32AC1389AB880B03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +131,15 @@
 		8460140B1FE12D4D00BEC428 /* HereMyShop */ = {
 			isa = PBXGroup;
 			children = (
+				849D08911FE130C600CDB3CD /* Extensions */,
+				849D08901FE130A400CDB3CD /* Controller */,
+				849D088F1FE1309D00CDB3CD /* View */,
+				849D088E1FE1309200CDB3CD /* Model */,
+				849D088D1FE1303200CDB3CD /* SupportingFiles */,
 				8460140C1FE12D4D00BEC428 /* AppDelegate.swift */,
-				8460140E1FE12D4D00BEC428 /* ViewController.swift */,
-				846014101FE12D4D00BEC428 /* Main.storyboard */,
-				846014161FE12D4E00BEC428 /* Assets.xcassets */,
-				846014181FE12D4E00BEC428 /* LaunchScreen.storyboard */,
 				8460141B1FE12D4E00BEC428 /* Info.plist */,
+				849D088B1FE1302D00CDB3CD /* GoogleService-Info.plist */,
+				846014161FE12D4E00BEC428 /* Assets.xcassets */,
 				846014131FE12D4E00BEC428 /* HereMyShop.xcdatamodeld */,
 			);
 			path = HereMyShop;
@@ -128,6 +163,54 @@
 			path = HereMyShopUITests;
 			sourceTree = "<group>";
 		};
+		849D088D1FE1303200CDB3CD /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		849D088E1FE1309200CDB3CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		849D088F1FE1309D00CDB3CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8460140E1FE12D4D00BEC428 /* MapVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		849D08901FE130A400CDB3CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				846014181FE12D4E00BEC428 /* LaunchScreen.storyboard */,
+				846014101FE12D4D00BEC428 /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		849D08911FE130C600CDB3CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AA3965AC32AC1389AB880B03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A76C788ECA167CF3D7AA66 /* Pods_HereMyShop.framework */,
+				1D4A7DB4AA06F20E79657219 /* Pods_HereMyShopTests.framework */,
+				5229D692214B1F0355510A5F /* Pods_HereMyShopUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846014341FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShop" */;
 			buildPhases = (
+				3BE2DA57E1011A1EC555D645 /* [CP] Check Pods Manifest.lock */,
 				846014051FE12D4D00BEC428 /* Sources */,
 				846014061FE12D4D00BEC428 /* Frameworks */,
 				846014071FE12D4D00BEC428 /* Resources */,
+				750B33C7CCF20D3B89725A7E /* [CP] Embed Pods Frameworks */,
+				EC550A4AFD7ABB8663CF3C03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846014371FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShopTests" */;
 			buildPhases = (
+				D5F745F4875C0FC310A6A1DD /* [CP] Check Pods Manifest.lock */,
 				8460141C1FE12D4E00BEC428 /* Sources */,
 				8460141D1FE12D4E00BEC428 /* Frameworks */,
 				8460141E1FE12D4E00BEC428 /* Resources */,
+				A88D560EE7B68077E57D5282 /* [CP] Embed Pods Frameworks */,
+				3B36D192472EE1B7F5422A31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8460143A1FE12D4E00BEC428 /* Build configuration list for PBXNativeTarget "HereMyShopUITests" */;
 			buildPhases = (
+				B313053E72BDA79A00930A0E /* [CP] Check Pods Manifest.lock */,
 				846014271FE12D4E00BEC428 /* Sources */,
 				846014281FE12D4E00BEC428 /* Frameworks */,
 				846014291FE12D4E00BEC428 /* Resources */,
+				68D443D2347522E13AC9FC51 /* [CP] Embed Pods Frameworks */,
+				14BF7C0D1041BB6A97E00E5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8460141A1FE12D4E00BEC428 /* LaunchScreen.storyboard in Resources */,
+				849D088C1FE1302D00CDB3CD /* GoogleService-Info.plist in Resources */,
 				846014171FE12D4E00BEC428 /* Assets.xcassets in Resources */,
 				846014121FE12D4D00BEC428 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +350,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14BF7C0D1041BB6A97E00E5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HereMyShopUITests/Pods-HereMyShopUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B36D192472EE1B7F5422A31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HereMyShopTests/Pods-HereMyShopTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE2DA57E1011A1EC555D645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HereMyShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68D443D2347522E13AC9FC51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HereMyShopUITests/Pods-HereMyShopUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		750B33C7CCF20D3B89725A7E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HereMyShop/Pods-HereMyShop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HereMyShop/Pods-HereMyShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88D560EE7B68077E57D5282 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HereMyShopTests/Pods-HereMyShopTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B313053E72BDA79A00930A0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HereMyShopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F745F4875C0FC310A6A1DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HereMyShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC550A4AFD7ABB8663CF3C03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HereMyShop/Pods-HereMyShop-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HereMyShop/Pods-HereMyShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		846014051FE12D4D00BEC428 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8460140F1FE12D4D00BEC428 /* ViewController.swift in Sources */,
+				8460140F1FE12D4D00BEC428 /* MapVC.swift in Sources */,
 				846014151FE12D4E00BEC428 /* HereMyShop.xcdatamodeld in Sources */,
 				8460140D1FE12D4D00BEC428 /* AppDelegate.swift in Sources */,
 			);
@@ -428,13 +676,14 @@
 		};
 		846014351FE12D4E00BEC428 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1456A663960D3432D7DFAA /* Pods-HereMyShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KYU9L2NHS;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
 				INFOPLIST_FILE = HereMyShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IOS.HereMyShop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.hereMyShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,13 +692,14 @@
 		};
 		846014361FE12D4E00BEC428 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CD102E5A116D7F931D76F36 /* Pods-HereMyShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2KYU9L2NHS;
+				DEVELOPMENT_TEAM = SUBZ24DP5B;
 				INFOPLIST_FILE = HereMyShop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.IOS.HereMyShop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.hereMyShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,6 +708,7 @@
 		};
 		846014381FE12D4E00BEC428 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71132A70D7FBDA7C7C9E5451 /* Pods-HereMyShopTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +726,7 @@
 		};
 		846014391FE12D4E00BEC428 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF14B1FB5978A5A1CBB41E4F /* Pods-HereMyShopTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +744,7 @@
 		};
 		8460143B1FE12D4E00BEC428 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FBA9442795EA909B6E9393 /* Pods-HereMyShopUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +761,7 @@
 		};
 		8460143C1FE12D4E00BEC428 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDF0DB3AF19C77422AA3C9E /* Pods-HereMyShopUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

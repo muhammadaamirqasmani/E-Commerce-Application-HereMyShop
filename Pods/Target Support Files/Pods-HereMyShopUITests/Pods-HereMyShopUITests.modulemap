@@ -1,0 +1,6 @@
+framework module Pods_HereMyShopUITests {
+  umbrella header "Pods-HereMyShopUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
